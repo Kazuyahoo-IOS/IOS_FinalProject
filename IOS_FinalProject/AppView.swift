@@ -13,21 +13,26 @@ struct AppView: View {
     var body: some View {
         ZStack{
             TabView {
-                WordList()
+                HomeView(wordnik: Wordnik(partOfSpeech: "", text: "", word: ""),wordsData: wordsData)
+                    .tabItem{
+                        Image(systemName:"house.fill")
+                        Text("首頁")
+                }
+                WordList(wordsData: wordsData)
                     .tabItem{
                         Image(systemName:"list.bullet")
                         Text("單字表")
+                }
+                NewsRow(news:Articles(articles: []))
+                    .tabItem{
+                        Image(systemName:"tv.fill")
+                        Text("新聞")
+                            .lineLimit(nil)
                 }
                 WebView()
                     .tabItem{
                         Image(systemName:"person.3.fill")
                         Text("學習計畫")
-                }
-                ChartView(wordsData: self.wordsData)
-                    .tabItem{
-                        Image(systemName:"magnifyingglass.circle.fill")
-                        Text("分析")
-                            .lineLimit(nil)
                 }
             }
             .accentColor(.purple)

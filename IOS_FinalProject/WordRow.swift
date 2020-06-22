@@ -10,12 +10,13 @@ import SwiftUI
 
 struct WordRow: View {
     var word: Word
-    var roles = ["n.名詞","v.動詞","adj.形容詞","adv.副詞","prep.介系詞","conj.連接詞"]
+    var roles = [NSLocalizedString("n.名詞", comment: "default"),NSLocalizedString("v.動詞", comment: "default"),NSLocalizedString("adj.形容詞", comment: "default"),NSLocalizedString("adv.副詞", comment: "default"),NSLocalizedString("prep.介系詞", comment: "default"),NSLocalizedString("conj.連接詞", comment: "default")]
     var body: some View {
         HStack {
             Text(word.words)
             if(word.isWord){
-                Text(roles[word.part_of_speech])
+                //Text(roles[word.part_of_speech])
+                Text(word.part_of_speech)
                     .padding(.leading)
             }
             else{
@@ -30,6 +31,6 @@ struct WordRow: View {
 
 struct WordRow_Previews: PreviewProvider {
     static var previews: some View {
-        WordRow(word:Word(words:"refrigerator",isWord:true,part_of_speech:0,meaning:"sth that can store food", sentence: "My mon bought a refrigerator yesterday.",isFavor:true))
+        WordRow(word:Word(words:"refrigerator",isWord:true,part_of_speech:"123",meaning:"sth that can store food", sentence: "My mon bought a refrigerator yesterday.",isFavor:true))
     }
 }

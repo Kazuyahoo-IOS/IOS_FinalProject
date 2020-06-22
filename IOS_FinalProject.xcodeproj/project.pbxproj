@@ -415,7 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"IOS_work4/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"IOS_FinalProject/Preview Content\"";
 				DEVELOPMENT_TEAM = 76BRUPGDY8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = IOS_FinalProject/Info.plist;
