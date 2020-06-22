@@ -33,7 +33,8 @@ struct HomeView: View {
     @State private var maxCount = 0
     
     var body: some View {
-        NavigationView {
+        UINavigationBar.appearance().titleTextAttributes = [.font : UIFont(name: "Georgia-Bold", size: 30)!]
+        return NavigationView {
             VStack{
                 Spacer()
                 HStack{
