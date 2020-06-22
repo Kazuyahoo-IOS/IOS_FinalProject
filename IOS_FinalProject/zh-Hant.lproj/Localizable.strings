@@ -1,0 +1,59 @@
+/* 
+  Localizable.strings
+  IOS_FinalProject
+
+  Created by 王瑋 on 2020/6/10.
+  Copyright © 2020 王瑋. All rights reserved.
+ "Home" = "首頁";
+ "Word List" = "單字表" ;
+ "Learning Program" = "學習計畫";
+ "Analysis" = "分析";
+ "News" = "新聞";
+ "Setting" ="設定";
+ "Phrase" = "片語";
+ "n." = "n.名詞";
+ "v." = "v.動詞";
+ "adj." =  "adj.形容詞";
+ "adv." = "adv.副詞";
+ "prep." = "prep.介系詞";
+ "conj." = "conj.連接詞";
+*/
+
+"Home" = "Home";
+"Word List" = "Word List";
+"earning Program" = "Learning Program";
+"Analysis" = "Analysis";
+"News" = "News";
+"Setting" ="Setting";
+"phrase" = "phrase";
+"n." = "n.";
+"v." = "v.";
+"adj." =  "adj.";
+"adv." = "adv.";
+"prep." = "prep.";
+"conj." = "conj.";
+"word" = "word";
+"part of speech" = "part of speech";
+"favorite" = "favorite";
+"save" = "save";
+"Add new Word" = "Add new Word";
+"idiom" = "idiom";
+"word/phrase" = "word/phrase";
+"meaning" = "meaning";
+"sentence" = "sentence";
+"Saved Failed" = "Saved Failed";
+"word and meaning can not empty!" = "word and meaning can not empty!";
+"edit" = "編輯";
+"done" = "完成";
+"BBC Top-10 News" = "BBC 頭條新聞";
+"Search..." = "Search...";
+"Dictionary" = "Dictionary";
+"Change Profile Photo" = "Change Profile Photo";
+"Welcome to check out my other projects:)" = "Welcome to check out my other projects:)";
+"Special thanks to" = "Special thanks to";
+"Version" = "Version";
+"About this app" = "About this app";
+"Coming soon" = "Coming soon";
+"After changing the Image,remember to click the save button" = "After changing the Image,remember to click the save button";
+"Got it" = "Got it";
+"Reminder" = "Reminder";

@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  IOS_FinalProject
+
+  Created by 王瑋 on 2020/6/10.
+  Copyright © 2020 王瑋. All rights reserved.
+*/
+
+"首頁" = "Home" ;
+"單字表" = "Word List" ;
+"學習計畫" = "Learning Program" ;
+"分析" = "Analysis" ;
+"新聞" = "News" ;
+"設定" = "Setting";
+"片語" = "phrase";
+"n.名詞" = "n.";
+"v.動詞" = "v." ;
+"adj.形容詞" = "adj.";
+"adv.副詞" = "adv.";
+"prep.介系詞" = "prep.";
+"conj.連接詞" = "conj.";
+"單字" = "word";
+"詞性" = "part of speech";
+"最愛" = "favorite";
+"儲存" = "save";
+"新增單字" = "Add new Word";
+"諺語" = "idiom";
+"單字/片語" = "word/phrase";
+"意思" = "meaning";
+"句子" = "sentence";
+"儲存失敗" = "Saved Failed";
+"單字或意思沒輸入是要背什麼？" = "word and meaning can not empty!";
+"搜尋..." = "Search...";
+"字典" = "Dictionary";
+"更換照片" = "Change Profile Photo";
+"歡迎參觀我的其他作品:)" = "Welcome to check out my other projects:)";
+"特別感謝" = "Special thanks to";
+"版本資訊" = "Version";
+"關於此應用程式" = "About this app";
+"敬請期待" = "Coming soon";
+"更換圖片後記得按儲存鈕存檔" = "After changing the Image,remember to click the save button";
+"知道了" = "Got it";
+"貼心提醒" = "Reminder";
